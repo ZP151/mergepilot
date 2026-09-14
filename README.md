@@ -293,7 +293,7 @@ for component boundaries and the target contracts.
 | Microsoft sign-in or ADO access fails    | Check the selected account, tenant/client configuration, Project Link, and permissions on the actual target.                      |
 | Model connection fails or a turn is slow | Test the configured model; check endpoint, deployment, and secret source. Use diagnostics to distinguish app and provider delays. |
 | An action is stale or verification fails | Refresh the artifact and inspect its action record before proposing another write.                                                |
-| Remote writes need to stop               | Turn off **Allow approved remote writes** in Settings → Built-in capabilities.                                                    |
+| Remote writes need to stop               | Turn off **Allow approved remote writes** in Settings → Capabilities.                                                             |
 | Local toolchain is missing               | Provision the two `.tools` paths described above; the runner does not download them automatically.                                |
 
 For a reproducible bug, [open an issue](https://github.com/ZP151/mergepilot/issues)
